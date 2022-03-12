@@ -1,0 +1,88 @@
+.cont-inter-qs img {
+    width: 100%;
+    height: 20rem;
+}
+
+.form{
+    height: 400px;
+    background-image: url(https://www.wallpapertip.com/wmimgs/74-749499_radio-station-radio-studio-background.jpg);   
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.cont{
+    margin-top: 0.2rem;
+}
+
+.cont-inter-qs .form-group{
+    display: flex;
+    justify-content: center;
+}
+.cont-inter-qs h3{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 3.7rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+.cont-inter-qs h3 {
+    margin-top: 1rem;
+    color: #e0dfdc;
+    background-color: rgb(43, 148, 209);
+    letter-spacing: 0.1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 10px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+.cont-inter-qs button {
+    background-color: rgb(33, 240, 247);
+    align-items: center;
+    width: 100%;
+    margin: -5rem 0  1rem;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-size: 2rem;
+}
+.cont-inter-qs button:hover {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
+
+.cont-inter-qs p{
+    display: flex;
+    justify-content: center;
+    color:rgb(14, 13, 13);
+    font-size: 1.7rem;
+}
+
+/* titulos Radio */
+.form h5{
+    color:rgba(255, 255, 255, 0.952);
+    display: flex;
+    text-shadow: 2px 2px 2px rgb(37, 49, 54);
+    justify-content: center;
+    font-size: 1.7rem;
+}
+.form h3 {
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 3.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+.form h3 {
+    color: #e0dfdc;
+    background-color: rgb(43, 148, 209);
+    letter-spacing: 0.1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 10px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+/* fin titulo  */
+.form .search{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form .form-gruop3{
+    padding: 6rem;
+}
+

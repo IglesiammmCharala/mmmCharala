@@ -1,0 +1,68 @@
+<!-- IMAGENES DE TRANSICION -->
+<div class="cont">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="text-align:center;">
+        <div class="carousel-indicators" >
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 1"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">          
+            <img src="assets/img/publicidad/radiologo.jpeg" style="height: 500px;" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/publicidad/publicidad1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/publicidad/publicidad2.jpeg"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/publicidad/publicidad3.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" >Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<!-- MUESTRA DE IMAGENES -->
+<div class="cont-inter-qs shadow">
+    <h3>
+        IMÁGENES
+    </h3>
+    <p>
+        Aquí podrás encontrar nuestros mejores momentos y eventos que se han tenido en este tiempo
+    </p>
+    <div class="form-group">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/f7/b1/01/hotel-cacique-chalala.jpg" alt="">
+        <img src="assets/img/galeria/imagen1.jpeg" alt="">
+        <img src="assets/img/galeria/imagen2.jpeg" alt="">
+    </div>
+      <button [routerLink]="['/Galeria']">MAS IMAGENES..</button>
+    
+</div>
+
+<!-- EMISORA VITUAL -->
+<div class="form">
+    <div class="form-gruop3">
+        <h3>
+            EMISORA VIRTUAL
+        </h3>
+        <h5>
+            Podrás escuchar nuestras transmiciones, programas en vivo y también música para el alma
+        </h5>
+    </div> 
+    <div class="search">
+        <!-- <img src="assets/img/radio.png" alt="Emisones">  -->
+        <audio autoplay="autoplay" controls="controls" id="audioAJDDHR" preload="auto">
+        <source src="https://emisorasvirtuales.com.co:9627/live" type="audio/mpeg" />Su navegador no soporta AUDIO.<br />  
+        </audio>
+    </div> 
+</div>
+

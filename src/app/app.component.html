@@ -1,0 +1,78 @@
+<!-- NAV DE PANEL DE ENLACES -->
+<div class="navbar">
+    <div class="main-content__brand1">
+        <div>
+            <img src="assets/logo.png" alt="logo empresa" height="43" width="43">
+            <h1 href="#" class="active">MMM CHARALA</h1>           
+        </div>
+      <nav>
+        <ul>
+            <li><a [routerLink]="['/Inicio']">INICIO</a></li>
+            <li><a [routerLink]="['/Programacion']">PROGRAMACION</a></li>
+            <li><a [routerLink]="['/Informacion']">NOSOTROS</a></li>
+            <li><a [routerLink]="['/Galeria']">GALERIA</a></li>
+            <!-- <li><a [routerLink]="['/Envivo']">GALERIA</a></li> -->
+        </ul>
+    </nav> 
+</div>
+<router-outlet></router-outlet>
+<!-- PIE DE PAGINA -->
+
+
+    <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background: #0f2480;"
+          href="https://www.facebook.com/Vida-Nueva-Stereo-106887908554618/"
+          role="button"
+          target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <!-- Youtube -->
+        <a
+        class="btn btn-primary btn-floating m-1"
+        style="background: #e40303;"
+        href="https://www.youtube.com/channel/UCsgYAxpFRxEBSnqrGjcpoUA/featured"
+        role="button"
+        target="_blank"
+        ><i class="fa fa-youtube"></i
+      ></a>
+      
+        <!-- Twitter -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background: #55acee;"
+          href="https://twitter.com/CharalaMmm"
+          role="button"
+          target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background: #dba717;"
+          href="https://instagram.com/iglesiammmcharala?utm_medium=copy_link"
+          role="button"
+          target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(26, 23, 23, 0.671);">
+      © 2022 Movimiento Misionero Mundial Charala-Santander|
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    

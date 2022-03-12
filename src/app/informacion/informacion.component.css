@@ -1,0 +1,71 @@
+.col-md img{
+    height: 6rem;
+    width: 7rem;
+    float:left;
+}
+.card-content{
+    height: 40rem;
+    width: 40rem;
+}
+.col-md{
+    margin:0 0 3rem 0;
+
+}
+p{
+    font-size: 1.7rem;
+}
+.cont-inter-qs h2{
+    font-size: 4rem;
+
+}
+.cont-inter-qs {
+    position: relative;
+    margin: 1% 5% 2%;
+    padding: 4%;
+    background-color: rgba(122, 116, 116, 0.233);
+    border-radius: 5px;
+    text-align: justify;
+}
+.cont-inter-qs {
+    text-align: left;
+}
+
+
+
+/* contactos */
+.contacto-dv {
+    border-radius: 5px;
+    padding: 10px;
+}
+.contacto-dv {
+    background-color: #24e4e4 !important;
+    margin: 1% 5% 2%;
+}
+
+.contacto-dv p{
+    text-align:center;
+    color: rgb(7, 7, 7);
+    margin: 1px 0 0 0;
+}
+.title img{
+    height: 20px;
+    width: 20px;
+}
+.contacto-dv .title{
+   text-align: center;
+   color: rgb(12, 12, 12);
+   font-size: 15px;
+}
+
+.title-t img{
+    height: 30px;
+    width: 30px;
+    margin: 0 0 1rem ;
+}
+.title-t a{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+}
+.contacto-dv .title-t{
+    text-align: center;
+}
